@@ -128,25 +128,25 @@ h2 {
 
 /* Utility */
 .padding-x-xl {
-  padding-inline: 8em;
+  padding-inline: 8rem;
 }
 .padding-y-sm {
-  padding-block: 1em;
+  padding-block: 1rem;
 }
 .padding-y-md {
-  padding-block: 2em;
+  padding-block: 2rem;
 }
 .padding-y-lg {
-  padding-block: 3em;
+  padding-block: 3rem;
 }
 .padding-y-xl {
-  padding-block: 6em;
+  padding-block: 6rem;
 }
 .margin-bttm-sm {
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 .margin-bttm-md {
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
 }
 .margin-lft-auto {
   margin-left: auto;
