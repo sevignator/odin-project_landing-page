@@ -93,6 +93,15 @@ h2 {
 .flex-inline > * {
   flex: 1;
 }
+.padding-x-xl {
+  padding-inline: 8em;
+}
+.padding-y-sm {
+  padding-block: 1em;
+}
+.padding-y-lg {
+  padding-block: 4em;
+}
 .bg-primary {
   background-color: var(--clr-primary);
   color: var(--clr-secondary);
