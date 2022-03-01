@@ -36,9 +36,24 @@ h2 {
   font-weight: 900;
 }
 .btn {
+  display: inline-block;
+  padding: 0.5em 2em;
+  border: 0;
+  border-radius: 0.4em;
   background-color: var(--clr-accent);
+  outline: 2px solid transparent;
   color: var(--clr-secondary);
   font-weight: 900;
+  text-decoration: none;
+  transition: outline 100ms ease-out, background-color 100ms ease-out;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--clr-primary);
+  outline: 2px solid #fff;
+}
+.btn--outline {
+  outline: 2px solid #fff;
 }
 .main-menu {
   display: flex;
