@@ -71,6 +71,11 @@ h2 {
 }
 
 /* Utility */
+.container {
+  max-width: 1000px;
+  padding-inline: 2rem;
+  margin-inline: auto;
+}
 .bg-primary {
   background-color: var(--clr-primary);
   color: var(--clr-secondary);
