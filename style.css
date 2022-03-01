@@ -117,6 +117,9 @@ h2 {
 .padding-y-lg {
   padding-block: 4em;
 }
+.margin-bttm-sm {
+  margin-bottom: 1em;
+}
 .bg-primary {
   background-color: var(--clr-primary);
   color: var(--clr-secondary);
