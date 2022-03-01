@@ -94,6 +94,10 @@ h2 {
   align-items: center;
   justify-content: space-between;
 }
+.site-footer > .container {
+  display: flex;
+  justify-content: center;
+}
 
 /* Utility */
 .container {
@@ -113,6 +117,9 @@ h2 {
 }
 .padding-y-sm {
   padding-block: 1em;
+}
+.padding-y-md {
+  padding-block: 2em;
 }
 .padding-y-lg {
   padding-block: 4em;
