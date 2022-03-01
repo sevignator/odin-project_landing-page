@@ -6,6 +6,11 @@
   --clr-muted: #f9faf8;
   --clr-accent: #3882f6;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 /* Base */
 body {
