@@ -104,3 +104,8 @@ h2 {
   background-color: var(--clr-accent);
   color: var(--clr-secondary);
 }
+.hero-image {
+  aspect-ratio: 5 / 2;
+  object-fit: cover;
+  object-position: center;
+}
