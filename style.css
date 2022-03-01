@@ -1,0 +1,21 @@
+/* Global */
+:root {
+  --clr-primary: #1f2937;
+  --clr-secondary: #fff;
+  --clr-light-contrast: #e5e7eb;
+  --clr-muted: #f9faf8;
+  --clr-accent: #3882f6;
+}
+
+/* Utility */
+.bg-primary {
+  background-color: var(--clr-inverted);
+  color: var(--clr-default);
+}
+.bg-muted {
+  background-color: var(--clr-light-contrast);
+}
+.bg-accent {
+  background-color: var(--clr-accent);
+  color: var(--clr-default);
+}
