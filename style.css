@@ -53,13 +53,13 @@ h2 {
 
 /* Utility */
 .bg-primary {
-  background-color: var(--clr-inverted);
-  color: var(--clr-default);
+  background-color: var(--clr-primary);
+  color: var(--clr-secondary);
 }
 .bg-muted {
   background-color: var(--clr-light-contrast);
 }
 .bg-accent {
   background-color: var(--clr-accent);
-  color: var(--clr-default);
+  color: var(--clr-secondary);
 }
