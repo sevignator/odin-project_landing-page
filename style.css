@@ -133,6 +133,9 @@ h2 {
 .padding-y-lg {
   padding-block: 4em;
 }
+.padding-y-xl {
+  padding-block: 6em;
+}
 .margin-bttm-sm {
   margin-bottom: 1em;
 }
