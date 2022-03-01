@@ -81,10 +81,16 @@ h2 {
 .quote__text {
   font-size: 2.25rem;
   font-style: italic;
+  font-weight: 300;
 }
 .quote__origin {
+  text-align: right;
+  margin-top: 0.5em;
   font-size: 1.5rem;
   font-weight: 900;
+}
+.quote__origin::before {
+  content: "- ";
 }
 .info-box__title {
   font-size: 1.5rem;
